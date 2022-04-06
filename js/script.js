@@ -18,7 +18,7 @@ let buyer = {
 function buy() {
     
     if (product.brutto ===0){
-        alert("uzr maxsulot qolmadi")
+        alert("Извините, у нас не осталось товара")
     } else{
         buyer.netto += 1;
         product.brutto -= 1;
@@ -37,7 +37,7 @@ function buy() {
 
 function Return() {
     if (buyer.netto ===0){
-        alert("Sizda qaytariladigan maxsulot qolmadi")
+        alert("У вас не осталось товара")
     } else{
         buyer.netto -=1;
         // product.brutto -=5000;
