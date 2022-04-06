@@ -1,0 +1,60 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    margin: 50px auto;
+    display: flex;
+}
+
+.col4{
+    display: inline-block;
+    width: 400px;
+    margin: 0 auto;
+}
+
+/* .rasm{
+    background-image: url('./../img/olma.jpg');
+    background-repeat: no-repeat;
+    background-size: contain;
+} */
+
+.card1{
+    width: 90%;
+    border: 2px solid rgba(47,76,97,0.5);
+    border-radius: 10px;
+     
+}
+
+.warehouse{
+   display: inline-block;
+   margin: 10px 10px;
+   /* border: 2px solid rgba(47,76,97,0.5); */
+   padding: 5px;
+   border-radius: 5px;
+   font-size: 14pt;
+
+}
+
+.ring{
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: yellow;
+    text-align: center;
+}
+
+
+
+.customer{
+    display: inline-block;
+    margin: 10px 10px;
+    /* border: 2px solid rgba(47,76,97,0.5); */
+    padding: 5px;
+    font-size: 14pt;
+}

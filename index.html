@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="img" style="display: none">
+            <span><i class="fa-solid fa-apple-whole"></i></span>
+            <span><i class="fa-solid fa-apple-whole"></i></span>
+            <span><i class="fa-solid fa-apple-whole"></i></span>
+            <span><i class="fa-solid fa-apple-whole"></i></span>
+            <span><i class="fa-solid fa-apple-whole"></i></span>
+
+         </div>
+        
+        <div class="col4">
+            <div class="card1">
+                <span><box-icon name='cart-alt' color='#f40b0b' ></box-icon></span> <h4 id="myProduct" style="margin-top: 10px; margin-left: 5px; display: inline-block; color: red;">Товар:</h4>  <br>  
+                <span><box-icon name='money' color='#1f6809' ></box-icon></span> <h4 id="myProductPrice" style="margin-top: 10px; display: inline-block; margin-left: 5px; color: green;"> Цена:</h4>
+                <div class="button" style="margin-top: 20px;">
+                    <button  class="btn btn-primary w-28 ms-3 mb-3" onclick="buy()"> <i class="fa-solid fa-cart-plus"></i> Покупать</button>                    
+                    <button  class="btn btn-danger w-28 float-end me-5 mb-3" onclick="Return()"><i class="fa-solid fa-rotate-left" style="color: white;"></i> Отменить</button>
+                </div>
+                <div class="warehouse" id="warehouse">
+                    <box-icon name='home-alt-2' animation='flashing' color='#e61125' ></box-icon> <span style="display: inline-block; padding-left: 5px; color: red">Склад</span> 
+                    <div class="ring" id="ring">0</div>
+                </div>
+                <div class="customer" id="customer">
+                    <box-icon name='user' animation='flashing' color='#114fe6' ></box-icon> <span style="display: inline-block; padding-left: 5px; color: blue;">Покупатель</span> 
+                    <div class="ring" id="ring1">0</div>
+                </div>
+
+                
+                                        
+            </div>
+            
+            <!-- <div class="rasm">
+                    
+            </div> -->
+        </div>
+
+        <div class="img1" style="display: none;">
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon> <br>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+            <box-icon type='logo' name='apple'></box-icon>
+        </div>
+        
+        
+        
+    </div>
+</body>
+<script src="./js/script.js"></script>
+<script src="https://unpkg.com/boxicons@2.1.2/dist/boxicons.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+<script src="./js/all.min.js"></script>
+</html>
